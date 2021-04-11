@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500;700&family=Titillium+Web:wght@200;300;400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.1em;
+    color:rgba(94, 84, 84, 0.911);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.main-header {
+    background-image: url("/Band Fan Page/img/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 0, 0, 0.842);
+    background-blend-mode: multiply;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1% 5%;
+    color: white;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.6)
+}
+
+.main-nav {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.band-name {
+    font-family: 'Recursive', sans-serif;
+    font-weight: normal;
+    color: white;
+    margin: 0;
+    font-size: 3em;    
+}
+
+.band-name-large {
+    padding: 50px 0;
+    font-size: 5em;
+}
+
+.content-header {
+    font-family: 'Recursive', sans-serif;
+    font-weight: normal;
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.band-image {
+    width: 600px;
+}
+
+.main-footer {
+    background-color: rgb(66, 66, 66);
+    color: white;
+    padding: .25em 0;
+    text-align: center;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .2em;
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: center;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    color: white;
+    border: 2px solid rgb(209, 67, 48);
+    background-color: rgba(255, 255, 255, 0.349);
+    font-size: 1.3em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-play {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 2em;
+}
+
+.tour {
+    margin-bottom: 1em;
+    padding: 1em;
+    border-bottom: 2px solid black;
+}
+
+.tour-header{
+    margin-bottom: 1em;
+}
+
+.tour-date {
+    font-weight: bold;
+
+}
+
+.tour span{
+    margin-right: 20px;
+}
+
+.tour-btn {
+    border-radius: .5em;
+    border: none;
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.411);
+}
+
+.tour-btn:hover {
+    background-color: rgba(255, 0, 0, 0.596);
+}
+
+.tour:last-child{
+    border-bottom: none;
+}
