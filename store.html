@@ -4,102 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Band Fan Page/styles.css">
     <title>Linkin Park | Store</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="store.html">Store</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
-        <hr>
-        <h1>Linkin Park</h1>
-    </nav>
-    <section>
-        <div>
-            <h3>MUSIC</h3>
-            <div>
-                <div><strong>Album 1</strong></div>
-                <div><img src="/Band Fan Page/img/hybridtheory.jfif" alt="Hybrid Theory"></div>
-                <div>
-                    <span>$12.99</span>
-                    <span><button>ADD TO CART</button></span>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <hr>
+            <h1 class="band-name band-name-large">Linkin Park</h1>
+        </nav>
+    </header>
+    <section class="content container shop-container">
+        <div class="store store-music">
+            <h3 class="content-header">MUSIC</h3>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <div class="shop-item-title">Album 1</div>
+                    <div class="shop-item-img"><img src="/Band Fan Page/img/hybridtheory.jfif" alt="Hybrid Theory"></div>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <span><button class="btn store-btn">ADD TO CART</button></span>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <div><strong>Album 2</strong></div>
-                <div><img src="/Band Fan Page/img/meteora.jfif" alt="meteora"></div>
-                <div>
-                    <span>$10.99</span>
-                    <span><button>ADD TO CART</button></span>
+                <div class="shop-item">
+                    <div class="shop-item-title">Album 2</div>
+                    <div class="shop-item-img"><img src="/Band Fan Page/img/meteora.jfif" alt="meteora"></div>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$10.99</span>
+                        <span><button class="btn store-btn">ADD TO CART</button></span>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <div><strong>Album 3</strong></div>
-                <div><img src="/Band Fan Page/img/thousandsuns.jfif" alt="Thousand Suns"></div>
-                <div>
-                    <span>$13.99</span>
-                    <span><button>ADD TO CART</button></span>
-                </div>
-            </div>
-        </div>
-        <div>
-            <h3>MERCH</h3>
-            <div>
-                <div><strong>T-shirt</strong></div>
-                <div><img src="/Band Fan Page/img/thousandsunstshirt.jfif" alt="Thousand Suns Tshirt"></div>
-                <div>
-                    <span>$19.99</span>
-                    <span><button>ADD TO CART</button></span>
-                </div>
-            </div>
-            <div>
-                <div><strong>Mug</strong></div>
-                <div><img src="/Band Fan Page/img/LinkinParkMug.jfif" alt="Linkin Park Mug"></div>
-                <div>
-                    <span>$9.99</span>
-                    <span><button>ADD TO CART</button></span>
+                <div class="shop-item">
+                    <div class="shop-item-title">Album 3</div>
+                    <div class="shop-item-img"><img src="/Band Fan Page/img/thousandsuns.jfif" alt="Thousand Suns"></div>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$13.99</span>
+                        <span><button class="btn store-btn">ADD TO CART</button></span>
+                    </div>
                 </div>
             </div>
         </div>
-        <div>
-            <h3>CART</h3>
-            <div>
-                <span><strong>ITEM</strong></span>
-                &lt;&gt;
-                <span><strong>PRICE</strong></span>
-                &lt;&gt;
-                <span><strong>QUANTITY</strong></span>
-                <hr>
+        <div class="store store-merch">
+            <h3 class="content-header">MERCH</h3>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <div class="shop-item-title">T-shirt</div>
+                    <div class="shop-item-img"><img src="/Band Fan Page/img/thousandsunstshirt.jfif" alt="Thousand Suns Tshirt"></div>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <span><button class="btn store-btn">ADD TO CART</button></span>
+                    </div>
+                </div>
+                    <div class="shop-item">
+                        <div class="shop-item-title">Mug</div>
+                        <div class="shop-item-img"><img src="/Band Fan Page/img/LinkinParkMug.jfif" alt="Linkin Park Mug"></div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$9.99</span>
+                            <span><button class="btn store-btn">ADD TO CART</button></span>
+                        </div>
+                    </div>
             </div>
-            <div>
-                <img src="/Band Fan Page/img/thousandsunstshirt.jfif" alt="">
-                <span>Linkin Park T-Shirt</span>
-                <span>$19.99</span>
-                <span><input type="number" value="1"></span>
-                <span><button>Remove</button></span>
-                <hr>
+        </div>  
+        <section class="container container-section">
+            <h3 class="content-header">CART</h3>
+            <div class="cart-columns">
+                <div class="cart-colum cart-item-column">ITEM</div>
+                <div class="cart-colum cart-price-column">PRICE</div>
+                <div class="cart-colum cart-quantity-column">QUANTITY</div>
             </div>
-            <div>
-                <img src="/Band Fan Page/img/LinkinParkMug.jfif" alt="">
-                <span>LinkinParkMug</span>
-                <span>$9.99</span>
-                <span><input type="number" value="1"></span>
-                <span><button>Remove</button></span>
-                <hr>
+            <div class="cart-item">
+                <div class="cart-item-column">
+                    <div class="cart-item-img"><img src="/Band Fan Page/img/thousandsunstshirt.jfif" alt=""></div>
+                    <div class="cart-item-name">Linkin Park T-Shirt</div>
+                </div>
+                <div class="cart-price-column cart-item-price">$19.99</div>
+                <div class="cart-quantity cart-quantity-column">
+                    <input class="cart-item-quantity" type="number" value="1">
+                    <button class=cart-btn>Remove</button>
+                </div>
+                
             </div>
-            <div>
-                <strong>Total</strong>
-                <span>$29.99</span>
+            <div class="cart-item">
+                <div class="cart-item-column">
+                    <div class="cart-item-img"><img src="/Band Fan Page/img/LinkinParkMug.jfif" alt=""></div>
+                    <div class="cart-item-name">LinkinPark Mug</div>
+                </div>
+                <div class="cart-price-column cart-item-price">$9.99</div>
+                <div class="cart-quantity cart-quantity-column">
+                    <input class="cart-item-quantity" type="number" value="1">
+                    <button class="cart-btn">Remove</button>
+                </div>
             </div>
-        </div>
+            <div class="cart-total">
+                <div>Total</div>
+                <div class="cart-total-amt">$29.99</div>
+            </div>
+        </section>
     </section>
-    <footer>
-        <h3>Linkin Park Socials</h3>
-        <a href="https://www.youtube.com/user/linkinparktv" target="_blank"><img src="/Band Fan Page/img/youtube-512.png" alt="Youtube" width="30px"></a>
-        <a href="https://twitter.com/linkinpark?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="/Band Fan Page/img/twitter-512.png" alt="Twitter" width="30px"></a>
-        <a href="https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz" target="_blank"><img src="/Band Fan Page/img/spotify-512.png" alt="Soptify" width="30px"></a>
+    <footer class="main-footer">
+        <div class="main-footer-container">
+        <h3 class="band-name">Linkin Park</h3>
+            <ul class="nav footer-nav">
+                <li><a href="https://www.youtube.com/user/linkinparktv" target="_blank"><img src="/Band Fan Page/img/youtube-512.png" alt="Youtube" width="30px"></a></li>
+                <li><a href="https://twitter.com/linkinpark?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="/Band Fan Page/img/twitter-512.png" alt="Twitter" width="30px"></a></li>
+                <li><a href="https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz" target="_blank"><img src="/Band Fan Page/img/spotify-512.png" alt="Soptify" width="30px"></a</li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
